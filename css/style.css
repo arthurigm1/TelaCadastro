@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Rubik+Iso&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    
+
+}
+
+#main-login{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-45deg, #000000, #000000, #6A5ACD, #483D8B);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left-login > h1{
+    font-size: 3vw;
+    color: #5F9EA0;
+}
+.img-login{
+    width: 40vw;
+}
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none;
+   
+}
+.card-login{
+    width: 60%;
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #050505;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #0c0b0b;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.card-login > h1 {
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    margin: 0;
+}
+.txtfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 2px;
+}
+.txtfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: aliceblue;
+    font-size: 12pt;
+    box-shadow:  #00000056;
+    outline: none;
+    box-sizing:  border-box;
+}
+.txtfield > label {
+    color: aliceblue;
+    margin: 7px;
+
+}
+.txtfield > input::placeholder{
+    color: #f0ffff94;
+}
+.btn-login{
+    width: 50%;
+    padding: 16px 0px;
+    margin: 20px;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: #201b2c;
+    background: #483D8B;
+    cursor: pointer;
+    box-shadow: 0px 5px 20px -10px #E6E6FA;
+
+}
+
+.btn-submit{
+    width: 50%;
+    padding: 16px 0px;
+    margin: 2px;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: #201b2c;
+    background: #483D8B;
+    cursor: pointer;
+    box-shadow: 0px 5px 20px -10px #E6E6FA;
+
+}
+.fullbox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.fullbox > label {
+    color: rgb(245, 246, 247);
+    margin: 7px;
+
+}
+.fullbox > input::placeholder{
+    color: #fbfdfd94;
+}
+@media only screen and (max-width: 950px){
+    .card-login{
+        width: 85%;
+    }
+
+    
+}
+@media only screen and (max-width: 600px){
+    .main-login{
+    flex-direction: column;
+}
+
+}
+input[type="submit"]{
+    width: 50%;
+    padding: 16px 0px;
+    margin: 2px;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: #201b2c;
+    background: #483D8B;
+    cursor: pointer;
+    box-shadow: 0px 5px 20px -10px #E6E6FA;
+}
+.error-validation{
+    color: red;
+    margin: 1px;
+   font-size: .8rem;
+}
+.template{
+    display: none;
+}
+form {
+    width: 60%;
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #050505;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #0c0b0b;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  form > h1{
+    color: #fdfdfd;
+  }
+
+#register-form{
+    width: 60%;
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #050505;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #0c0b0b;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#register-form > h1 {
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    margin: 0;
+}
+
+.btn-registre{
+    width: 50%;
+    padding: 16px 0px;
+    margin: 2px;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: #201b2c;
+    background: #483D8B;
+    cursor: pointer;
+    box-shadow: 0px 5px 20px -10px #E6E6FA;
+}
