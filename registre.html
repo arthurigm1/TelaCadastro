@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,29 +8,31 @@
     <script src="script.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>TELA TESTE</title>
-    
+
 </head>
+
 <body>
     <div id="main-login">
-        
+
         <div class="d-flex flex-column justify-content-center w-100 h-100"></div>
         <div class="left-login">
-        
-        <img src="card.svg" class="img-login" alt="CARD">
+
+            <img src="card.svg" class="img-login" alt="CARD">
         </div>
         <div class="right-login">
-            <form id="register-form"  action="">
-            
+            <form id="register-form" action="">
+
                 <h1>Faca seu Cadastro</h1>
                 <div class="txtfield">
-                   
+
                     <label for="usuario">Email</label>
                     <input type="text" name="email" placeholder="Email" data-min-length="2" data-email-validate>
                 </div>
                 <div class="txtfield">
-                   
+
                     <label for="usuario">Usuario</label>
-                    <input type="text" name="usuario" placeholder="Usuario" data-required data-min-length="4" data-max-length="8">
+                    <input type="text" name="usuario" placeholder="Usuario" data-required data-min-length="4"
+                        data-max-length="8">
                 </div>
                 <div class="txtfield">
                     <label for="senha">Senha</label>
@@ -38,24 +41,26 @@
                 <p> </p>
                 <div class="txtfield">
                     <label for="senha">Confirmacao da senha</label>
-                    <input type="password" name="senha" placeholder="Digite novamente sua senha" data-equal="password" data-password-validate data-required>
+                    <input type="password" name="senha" placeholder="Digite novamente sua senha" data-equal="password"
+                        data-password-validate data-required>
                 </div>
                 <div class="fullbox">
                     <input type="checkbox" name="agree" id="agree">
                     <label for="agree" id="agree"> Eu li e aceito os <a href="#"> termos de uso</a></label>
                 </div>
                 <div class="fullbox">
-                    <input type="submit" id="btn-submit" value="Registrar">                  
-                </div>               
+                    <input type="submit" id="btn-submit" value="Registrar">
+                </div>
                 <a href="index.html" class="btn-login">Voltar ao Login</a>
-                
-         
+
+
             </form>
-            </div>
-        
         </div>
+
+    </div>
     </div>
     <p class="error-validation"></p>
     <script src="js/javs.js"></script>
 </body>
+
 </html>
